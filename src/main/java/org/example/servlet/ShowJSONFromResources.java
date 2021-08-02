@@ -1,11 +1,10 @@
-package org.example;
+package org.example.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.nio.file.Files;
 
 public class ShowJSONFromResources extends HttpServlet {
 

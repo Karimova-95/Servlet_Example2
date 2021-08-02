@@ -6,11 +6,20 @@
 
     <servlet>
         <servlet-name>ReadFile</servlet-name>
-        <servlet-class>org.example.ShowJSONFromResources</servlet-class>
+        <servlet-class>org.example.servlet.ShowJSONFromResources</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ReadFile</servlet-name>
         <url-pattern>/file</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CRUDApp</servlet-name>
+        <servlet-class>org.example.servlet.CRUDServletApp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CRUDApp</servlet-name>
+        <url-pattern>/crud</url-pattern>
     </servlet-mapping>
 
 </web-app>
